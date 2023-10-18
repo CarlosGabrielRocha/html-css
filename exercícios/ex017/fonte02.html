@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+</head>
+<style>
+    @font-face {
+        font-family: 'love';
+        src: url('fonts/love larry ttf.ttf') format('TrueType');
+        font-weight: normal;
+        font-style: normal; 
+
+    }
+    @font-face {
+        font-family: 'ROLNER';
+        src: url('fonts/ROLNER.otf') format('OpenType');
+        font-weight: normal;
+        font-style: normal;
+    }
+    /* É possível locar mais de uma URl se tiver, EX: url(love larry ttf) format(TrueType), url(love larry ttf) format(OpenType); */
+        /*  Tipos de format()
+            -Opentype (otf)
+            -truetype (ttf)
+            -embedded-Opentype
+            -TrueType-aat (Apple Advanced Typography)
+            -svg */
+    h1{
+        font-family: 'ROLNER', Times, serif;
+        font-weight: normal;
+        font-size: 3em;
+    }
+</style>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ea, nulla vel ipsa delectus ex minima nihil quo tenetur adipisci iste, aliquid sed. Corrupti incidunt maxime eos expedita sunt. Eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ab temporibus sapiente officia id tenetur non nam repudiandae. Ullam necessitatibus illo veritatis placeat. Totam, inventore quidem. Et excepturi est obcaecati.</p>
+</body>
+</html>
