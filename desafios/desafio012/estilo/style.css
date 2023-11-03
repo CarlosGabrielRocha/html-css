@@ -15,29 +15,67 @@
 }
 
 header{
-    height: 300px;
+    height: 350px;
     background-color: black;
 }
 
 header > h1{
     color: white;
-    font-family: var(--fontedestaque);
-    font-weight: bold;
-    font-size: 7em;
-    text-transform: capitalize;
+    text-transform: uppercase;
     text-align: center;
     padding-top: 70px;
+    font: normal bold 7em var(--fontedestaque);
+}
+
+header > h1::first-letter{
+    font-size: 1.5em;
 }
 
 header > p{
     color: white;
-    font-family: verdana;
-    font-size: 1.5em;
     text-align: center;
+    font: 1.5em 'verdana';
 }
 
-header a{
+header > p > a{
     color: white;
     text-decoration: none;
-    font-family: 'cursive';
+    font-family: 'verdana';
+    font-weight: bold;
+}
+
+header > p > a:hover{
+    text-decoration: underline;
+}
+
+ main p{
+    font-family: var(--fontepadrao);
+    font-size: 4em;
+    line-height: 2.1em;
+}
+
+section{
+    margin-top: 100px;
+    margin-left: 40px;
+    width: 800px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-family: 'verdana';
+    font-size: 1.3em;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+footer p{
+    margin-bottom: 3px;
+}
+
+footer > p > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
