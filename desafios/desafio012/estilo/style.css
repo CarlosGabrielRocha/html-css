@@ -50,14 +50,32 @@ header > p > a:hover{
 
  main p{
     font-family: var(--fontepadrao);
-    font-size: 4em;
+    font-size: 3.8em;
     line-height: 2.1em;
 }
 
 section{
     margin-top: 100px;
     margin-left: 40px;
-    width: 800px;
+    width: 750px;
+}
+
+.paralax{
+    position: relative;
+    background: black url('../imagens/background001.jpg') center center /cover fixed ;
+    height: 1100px;
+}
+
+#fundo{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.453);
+    background-attachment: scroll;
+    width: 708px;
+    
+}
+
+#fundo > p{
+    color: white;
 }
 
 footer{
