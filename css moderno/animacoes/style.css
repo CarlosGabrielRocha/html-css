@@ -1,0 +1,13 @@
+body {
+    display: grid;
+    width: 100vh;
+    height: 100vh;
+    place-items: center;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    outline: 5px solid red;
+}
+
