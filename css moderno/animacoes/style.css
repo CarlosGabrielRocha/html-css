@@ -1,13 +1,17 @@
-body {
-    display: grid;
-    width: 100vh;
+@charset "UTF-8";
+
+body, html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
-    place-items: center;
 }
 
 .box {
-    width: 200px;
-    height: 200px;
     outline: 5px solid red;
+}
+
+img {
+    transform: translateX(100px) scale(1.2) rotate(-25deg);
 }
 
