@@ -1,17 +1,20 @@
 @charset "UTF-8";
 
-body, html {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+body {
+  margin: 30px;
 }
 
 .box {
-    outline: 5px solid red;
+    background-color: #157bad;
+    height: 300px;
+    width: 300px;
+
+    transition-property: background-color;
+    transition-duration: 2s;
 }
 
-img {
-    transform: translateX(100px) scale(1.2) rotate(-25deg);
+.box:hover {
+    background-color: #ec5840;
+    border-radius: 50%;
 }
 
