@@ -1,4 +1,4 @@
-@charset "UTF-8";
+/* @charset "UTF-8";
 
 body {
   margin: 30px;
@@ -11,12 +11,39 @@ body {
 
     transition-property: background-color, border-radius;
     transition-duration: 2s, 0.5s;
-   /*  transition-delay: 1s; */
+     transition-delay: 1s; 
    transition-timing-function: cubic-bezier(.15, .89, .85, .26);
 }
 
 .box:hover {
     background-color: #ec5840;
     border-radius: 50%;
+} */
+
+body {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.box {
+  animation: bounceIn 1s cubic-bezier(.23,.66,.9,.52);
+  background-color: #2d9cdb;
+  width: 300px;
+  height: 300px;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
