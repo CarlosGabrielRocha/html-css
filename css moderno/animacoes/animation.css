@@ -1,2 +1,10 @@
 @charset "UTF-8";
 
+body {
+    display: flex;
+    align-items: center;
+    width: 97vw;
+    height: 97vh;
+    background-color: white;
+}
+
